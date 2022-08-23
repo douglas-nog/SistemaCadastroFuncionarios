@@ -4,7 +4,7 @@ public class Funcionario {
 	private String nome;
 	private String cpf;
 	private String matricula;
-	protected double salario;
+	private double salario;
 	
 	//Todo funcionario receberá uma bonificação de 10% do salário.
 	

@@ -20,7 +20,7 @@ public class Gerente extends Funcionario {
 	 * A bonificação do gerente é de um salário inteiro e não 10%
 	 */
 	public double getBonificacao(){
-		return super.getBonificacao() + super.salario;
+		return super.getBonificacao() + super.getSalario();
 		
 	}
 }
